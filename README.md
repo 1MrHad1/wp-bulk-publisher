@@ -2,6 +2,8 @@
 
 Bulk publish articles from a CSV to WordPress through the REST API.
 
+Node 18+, zero dependencies: `fetch` and the CSV parser are both built in.
+
 Reads a CSV, validates every row offline, posts the valid ones, and writes a
 per-row report saying what happened to each.
 
@@ -19,33 +21,30 @@ Three rules drove most of the decisions:
 ## Running it
 
 ```bash
-pip install requests
-
 export WP_URL="https://client.example.com"
 export WP_USER="automation"
 export WP_APP_PASSWORD="xxxx xxxx xxxx xxxx xxxx xxxx"
 
-python publish_articles.py articles.csv
+node publish-articles.mjs articles.csv
 ```
 
 | Flag | What it does |
 |---|---|
 | `--dry-run` | Validates every row and posts nothing. No credentials needed. |
 | `--schedule` | Schedules posts for `publish_date` instead of leaving drafts. |
-| `--rate 0.5` | Minimum seconds between API requests. Default 1.0. |
-| `--report-prefix run-01` | Filename prefix for the report files. |
-
+| `--rate=0.5` | Minimum seconds between API requests. Default 1.0. |
+| 
 ## Running it without a WordPress site
 
-`mock_wp.py` stands in for the API. It deliberately returns a 503 on the first
+`mock-wp.mjs` stands in for the API. It deliberately returns a 503 on the first
 POST and reports one slug as already existing, so the retry path and the
 duplicate path actually run rather than just existing in the file.
 
 ```bash
-python mock_wp.py &
+node mock-wp.mjs &
 
 WP_URL="http://127.0.0.1:8099" WP_USER="automation" WP_APP_PASSWORD="test test test test" \
-  python publish_articles.py articles.csv --rate 0.1 --schedule
+  node publish-articles.mjs articles.csv --rate 0.1 --schedule
 ```
 
 Output from that run:

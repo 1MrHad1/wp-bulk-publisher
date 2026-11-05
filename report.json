@@ -4,8 +4,6 @@
     "slug": "audit-wordpress-crawl-waste",
     "title": "How to Audit a WordPress Site for Crawl Waste",
     "status": "posted",
-    "reason": "",
-    "status_code": "",
     "post_id": 501,
     "link": "https://client.example.com/audit-wordpress-crawl-waste/"
   },
@@ -14,8 +12,6 @@
     "slug": "five-schema-types-sites-get-wrong",
     "title": "Five Schema Types Most Sites Get Wrong",
     "status": "posted",
-    "reason": "",
-    "status_code": "",
     "post_id": 502,
     "link": "https://client.example.com/five-schema-types-sites-get-wrong/"
   },
@@ -24,60 +20,42 @@
     "slug": "complete-technical-seo-audit-guide",
     "title": "The Complete and Absolutely Definitive Guide to Technical SEO Auditing for Large Enterprise Websites in 2026",
     "status": "validation_failed",
-    "reason": "title is 108 chars, max 60",
-    "status_code": "",
-    "post_id": "",
-    "link": ""
+    "reason": "title is 108 chars, max 60"
   },
   {
     "row": 5,
     "slug": "internal-linking-programmatic-pages",
     "title": "Internal Linking for Programmatic Pages",
     "status": "validation_failed",
-    "reason": "meta_description is 247 chars, max 160",
-    "status_code": "",
-    "post_id": "",
-    "link": ""
+    "reason": "meta_description is 247 chars, max 160"
   },
   {
     "row": 6,
     "slug": "Core Web Vitals / INP_update!",
     "title": "Core Web Vitals After the INP Change",
     "status": "validation_failed",
-    "reason": "slug 'Core Web Vitals / INP_update!' must be lowercase letters, numbers and single hyphens",
-    "status_code": "",
-    "post_id": "",
-    "link": ""
+    "reason": "slug 'Core Web Vitals / INP_update!' must be lowercase letters, numbers and single hyphens"
   },
   {
     "row": 7,
     "slug": "robots-txt-rules-that-deindex",
     "title": "Robots.txt Rules That Quietly Deindex Sites",
     "status": "validation_failed",
-    "reason": "publish_date 2026-10-01T09:00:00+00:00 is in the past",
-    "status_code": "",
-    "post_id": "",
-    "link": ""
+    "reason": "publish_date 2026-10-01T09:00:00+00:00 is in the past"
   },
   {
     "row": 8,
     "slug": "share-of-voice-ai-overviews",
     "title": "Measuring Share of Voice in AI Overviews",
     "status": "validation_failed",
-    "reason": "category 'press-releases' is not in ['blog', 'guides', 'news']",
-    "status_code": "",
-    "post_id": "",
-    "link": ""
+    "reason": "category 'press-releases' is not in [\"blog\",\"guides\",\"news\"]"
   },
   {
     "row": 9,
     "slug": "canonical-tags-paginated-archives",
     "title": "Canonical Tags and Paginated Archives",
     "status": "validation_failed",
-    "reason": "missing required field: body_html",
-    "status_code": "",
-    "post_id": "",
-    "link": ""
+    "reason": "missing required field: body_html"
   },
   {
     "row": 10,
@@ -85,8 +63,6 @@
     "title": "What Changed in the November Core Update",
     "status": "skipped_duplicate",
     "reason": "slug already exists as post 9001",
-    "status_code": "",
-    "post_id": 9001,
-    "link": ""
+    "post_id": 9001
   }
 ]

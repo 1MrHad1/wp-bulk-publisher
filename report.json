@@ -3,17 +3,13 @@
     "row": 2,
     "slug": "audit-wordpress-crawl-waste",
     "title": "How to Audit a WordPress Site for Crawl Waste",
-    "status": "posted",
-    "post_id": 501,
-    "link": "https://client.example.com/audit-wordpress-crawl-waste/"
+    "status": "validated_ok"
   },
   {
     "row": 3,
     "slug": "five-schema-types-sites-get-wrong",
     "title": "Five Schema Types Most Sites Get Wrong",
-    "status": "posted",
-    "post_id": 502,
-    "link": "https://client.example.com/five-schema-types-sites-get-wrong/"
+    "status": "validated_ok"
   },
   {
     "row": 4,
@@ -61,8 +57,6 @@
     "row": 10,
     "slug": "november-core-update-what-changed",
     "title": "What Changed in the November Core Update",
-    "status": "skipped_duplicate",
-    "reason": "slug already exists as post 9001",
-    "post_id": 9001
+    "status": "validated_ok"
   }
 ]

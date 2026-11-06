@@ -1,10 +1,10 @@
 row,slug,title,status,reason,status_code,post_id,link
-"2","audit-wordpress-crawl-waste","How to Audit a WordPress Site for Crawl Waste","posted","","","501","https://client.example.com/audit-wordpress-crawl-waste/"
-"3","five-schema-types-sites-get-wrong","Five Schema Types Most Sites Get Wrong","posted","","","502","https://client.example.com/five-schema-types-sites-get-wrong/"
+"2","audit-wordpress-crawl-waste","How to Audit a WordPress Site for Crawl Waste","validated_ok","","","",""
+"3","five-schema-types-sites-get-wrong","Five Schema Types Most Sites Get Wrong","validated_ok","","","",""
 "4","complete-technical-seo-audit-guide","The Complete and Absolutely Definitive Guide to Technical SEO Auditing for Large Enterprise Websites in 2026","validation_failed","title is 108 chars, max 60","","",""
 "5","internal-linking-programmatic-pages","Internal Linking for Programmatic Pages","validation_failed","meta_description is 247 chars, max 160","","",""
 "6","Core Web Vitals / INP_update!","Core Web Vitals After the INP Change","validation_failed","slug 'Core Web Vitals / INP_update!' must be lowercase letters, numbers and single hyphens","","",""
 "7","robots-txt-rules-that-deindex","Robots.txt Rules That Quietly Deindex Sites","validation_failed","publish_date 2026-10-01T09:00:00+00:00 is in the past","","",""
 "8","share-of-voice-ai-overviews","Measuring Share of Voice in AI Overviews","validation_failed","category 'press-releases' is not in [""blog"",""guides"",""news""]","","",""
 "9","canonical-tags-paginated-archives","Canonical Tags and Paginated Archives","validation_failed","missing required field: body_html","","",""
-"10","november-core-update-what-changed","What Changed in the November Core Update","skipped_duplicate","slug already exists as post 9001","","9001",""
+"10","november-core-update-what-changed","What Changed in the November Core Update","validated_ok","","","",""
